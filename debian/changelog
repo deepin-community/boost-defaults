@@ -1,3 +1,9 @@
+boost-defaults (1.74.0.3+deepin1) unstable; urgency=medium
+
+  * Add loong64 for context
+
+ -- Han Gao <gaohan@iscas.ac.cn>  Thu, 09 Mar 2023 09:12:57 +0800
+
 boost-defaults (1.74.0.3) unstable; urgency=medium
 
   * [eb1b305] Trim trailing whitespace.
