@@ -65,11 +65,11 @@ Depends: ${misc:Depends},
  libboost-atomic-dev,
  libboost-chrono-dev,
  libboost-container-dev,
- libboost-context-dev [i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x],
- libboost-coroutine-dev [i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x],
+ libboost-context-dev [i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x loong64],
+ libboost-coroutine-dev [i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x loong64],
  libboost-date-time-dev,
  libboost-exception-dev,
- libboost-fiber-dev [i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x],
+ libboost-fiber-dev [i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x loong64],
  libboost-filesystem-dev,
  libboost-graph-dev,
  libboost-graph-parallel-dev,
@@ -233,7 +233,7 @@ Description: C++ library that implements several well-known containers - dev fil
 
 Package: libboost-context-dev
 Homepage: http://www.boost.org/libs/context/
-Architecture: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x
+Architecture: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x loong64
 Multi-Arch: same
 Section: libdevel
 Depends: ${misc:Depends}, libboost-context1.74-dev
@@ -273,7 +273,7 @@ Description: Contract library for C++ - dev files (default version)
 
 Package: libboost-coroutine-dev
 Homepage: http://www.boost.org/libs/coroutine/
-Architecture: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x
+Architecture: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x loong64
 Multi-Arch: same
 Section: libdevel
 Depends: ${misc:Depends}, libboost-coroutine1.74-dev
@@ -331,7 +331,7 @@ Description: library to help write exceptions and handlers (default version)
 
 Package: libboost-fiber-dev
 Homepage: http://www.boost.org/libs/fiber/
-Architecture: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x
+Architecture: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64 armel armhf arm64 mips mipsel mips64el powerpc ppc64el riscv64 s390x loong64
 Multi-Arch: same
 Section: libdevel
 Depends: ${misc:Depends}, libboost-fiber1.74-dev
