@@ -1,8 +1,37 @@
-boost-defaults (1.74.0.3+deepin1) unstable; urgency=medium
+boost-defaults (1.83.0.2) unstable; urgency=medium
 
-  * Add loong64 for context
+  * [db1b745] Add deps to libboost-all-dev on boost-json and boost-url. (Closes: #1058951)
+  * [5dedd70] Add loong64 support. (Closes: #1054639)
 
- -- Han Gao <gaohan@iscas.ac.cn>  Thu, 09 Mar 2023 09:12:57 +0800
+ -- Anton Gladky <gladk@debian.org>  Fri, 22 Dec 2023 23:26:56 +0100
+
+boost-defaults (1.83.0.1) unstable; urgency=medium
+
+  * Upload into unstable. (Closes: #1006309)
+
+ -- Anton Gladky <gladk@debian.org>  Mon, 18 Dec 2023 06:47:23 +0100
+
+boost-defaults (1.83.0.1~exp1) experimental; urgency=medium
+
+  * [136a224] Update control file for 1.83.0
+  * [1acd6ac] Update standards version to 4.6.2, no changes needed.
+
+ -- Anton Gladky <gladk@debian.org>  Fri, 20 Oct 2023 07:45:31 +0200
+
+boost-defaults (1.81.0.1~exp1) experimental; urgency=medium
+
+  * [f04148e] Generate control file for the 1.81.0
+  * [bbbba8d] Trim trailing whitespace.
+  * [3547377] Update standards version to 4.6.1, no changes needed.
+
+ -- Anton Gladky <gladk@debian.org>  Thu, 29 Dec 2022 17:07:19 +0100
+
+boost-defaults (1.80.0.1~exp1) experimental; urgency=medium
+
+  * [9abf3c2] Minor improvements in create-boost-defaults-control
+  * [744e727] Generate control file for the 1.80.0
+
+ -- Anton Gladky <gladk@debian.org>  Sat, 17 Dec 2022 21:39:46 +0100
 
 boost-defaults (1.74.0.3) unstable; urgency=medium
 
